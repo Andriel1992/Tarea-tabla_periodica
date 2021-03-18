@@ -1,0 +1,125 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+h1{
+    margin: 0;
+    text-align: center;
+    position: relative;
+    font-size: 20px;
+}
+
+body{
+    background-color: #303030f5;
+    font-family: "Roboto Mono",monospace;
+    color: white;
+}
+
+.periodit-table-container{
+    width: 77%;
+    margin: auto;
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.secundary-periodit-table-container{
+    width: 77%;
+    margin: auto;
+    
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.legend{
+    width: 85%;
+    margin: auto;
+    
+    position: relative;
+}
+
+.elements{
+    width: 70px;
+    height: 70px;
+    margin-top: 2px;
+    margin-right: 2px;
+}
+
+.symbol{
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: capitalize;
+    padding: 30%;
+    
+}
+.symbol2{
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: capitalize;
+    padding: 20%;
+    
+}
+
+.box {
+    display: flex;
+  }
+
+  .otros-no-metales{
+      background-color: rgb(20, 145, 74);
+  }
+
+  .alcalinos{
+      background-color: #aa72be;
+  }
+
+  .alcalinos-terreos{
+      background-color: #d856ad;
+  }
+
+  .metales-de-transicion{
+      background-color: #d4a434;
+  }
+
+  .lantanidos{
+      background-color: #cf7e2d;
+  }
+
+  .acdtinidos{
+      background-color: #d8694d;
+  }
+
+  .metaloide{
+    background-color: #cad13a;
+  }
+
+  .otros-metales{
+      background-color: #e4ca21;
+  }
+
+  .halogenos {
+      background-color: #63bebe;
+  }
+
+  .gases-nobles{
+      background-color: #63a4e6;
+  }
+
+  .fuente{
+      font-size: 17px;
+      font-weight: bold;
+  }
+
+  .bg-grey{
+      background-color: grey;
+  }
+
+  .border{
+      border: rgb(255, 255, 255);
+  }
